@@ -9,13 +9,15 @@
 <p>INV Date:1/OCT/2020<br/>INV No:10102020<br/>Staff ID:WDF(1044)<br/>Phone No:<a href="tel:0123456">0123456</a></p>
 <hr/>
 <center><table border="1">
-	<thead bgcolor="silver">
-	<tr>
+	<thead>
+	<tr><th colspan="6">Item List</th></tr>
+	<tr bgcolor="silver">
 		<th>No</th>
 		<th>Item</th>
 		<th>Quantity</th>
 		<th>Unit Price</th>
 		<th>Total</th>
+		<th>QC</th>
 	</tr>
 	</thead>
 	<tbody>
@@ -25,6 +27,7 @@
 		<td>12</td>
 		<td>100</td>
 		<td>1200</td>
+		<td rowspan="5">Passed</td>
 	</tr>
 	<tr>
 		<td>2</td>
@@ -54,29 +57,21 @@
 		<td>100</td>
 		<td>500</td>
 	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td>Sub Total :</td>
-		<td>11,500</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td>Tax (5%) :</td>
-		<td>575</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td>Grand Total (Ks.) :</td>
-		<td bgcolor="yellow">120,75</td>
-	</tr>
 	</tbody>
 	<tfoot>
+		<tr align="right">
+		<td colspan="4">Sub Total :</td>
+		<td>11,500</td>
+		<td rowspan="3" align="center">Paid</td>
+	</tr>
+	<tr align="right">
+		<td colspan="4">Tax (5%) :</td>
+		<td>575</td>
+	</tr>
+	<tr align="right">
+		<td colspan="4">Grand Total (Ks.) :</td>
+		<td bgcolor="yellow">120,75</td>
+	</tr>
 	</tfoot>
 </table></center>
 </body>
