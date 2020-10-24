@@ -1,4 +1,21 @@
-p{
-	color: red;
+/*Element Slector */
+/*Single Selector*/
+/*p{
+	color: blue;
+	font-size: 20px;
+}*/
+
+/*Group Selector*/
+h1,h2,h3,h4{
+	color:blue;
+}
+/*Id Selector*/
+#first{
+	color:red;
+	font-size:30px;
+}
+/*Class Selector*/
+.second{
+	color:green;
 	font-size: 20px;
 }
